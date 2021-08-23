@@ -1,0 +1,227 @@
+body{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+
+div, p, input, button, form, span, a, ul, li{
+    box-sizing: border-box;
+}
+
+p{
+    line-height: 1.7em;
+}
+
+h1{
+    line-height: 1.4em;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    background: rgb(78,190,254);
+    background: linear-gradient(90deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    padding-top: 65px;
+    padding-bottom: 75px;
+    color: #fff;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -14px;
+}
+
+.intro{
+    margin-top: 115px;
+    width: 560px;
+}
+
+.main{
+    font-size: 37px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.main span{
+    font-size: 59px;
+}
+
+.unstoppable{
+    width: 395px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 45px;
+}
+
+.btn{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
+    font-size: 15px;
+    background: #ffd429;
+    color: #2e2a1b;
+    display: block;
+    width: 220px;
+    padding: 20px 0;
+    text-align: center;
+    transition: all, 0.5s, ease;
+}
+
+.btn:hover{
+    background: #f1c820;
+}
+
+.travel{
+    margin-top: 10px;
+}
+
+.future{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.section-title{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wait-for-it{
+    width: 270px;
+    background: url(./images/time.jpg) no-repeat top;
+    padding-top: 80px;
+}
+
+.wait-title{
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    /* margin-top: 240px; */
+    text-align: center;
+}
+
+.wrapper-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+}
+
+.wait-text{
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 14px;
+    width: 290px;
+    text-align: center;
+}
+
+.wait-for-it-palm{
+    background: url(./images/palm.jpg) no-repeat top;
+}
+
+.wait-for-it-launch{
+    background: url(./images/launch.jpg) no-repeat top;
+}
+
+.form{
+    background: #ecf3f8;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+.forma{
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: center;
+}
+
+.forms{
+    width: 340px;
+    height: 45px;
+    margin-top: 15px;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.btn-form{
+    margin-top: 15px;
+    width: 340px;
+}
+
+.footer{
+    background: #164d7a;
+    padding: 60px 0;
+}
+
+.footer-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container{
+        width: 960px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container{
+        width: 720px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .intro{
+        width: auto;
+    }
+    .travel{
+        margin-top: 20px;
+    }
+    .wrapper-2{
+        flex-direction: column;
+    }
+    .wait-for-it{
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container{
+        width: 540px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container{
+        width: 90%;
+    }
+    .unstoppable{
+        width: auto;
+        margin-top: 60px;
+    }
+    .forms{
+        width: 320px;
+    }
+    .btn-form{
+        width: 320px;
+    }
+}
+

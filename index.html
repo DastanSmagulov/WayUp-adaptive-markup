@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <title>Верстка Макета</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <img src="./images/logo (1).png" alt="" class="logo">
+            <div class="wrapper">
+                <div class="intro">
+                    <h1 class="main">
+                        С помощью верстки <br>
+                        я создам ту жизнь, о которой
+                        <span>мечтаю!</span>
+                    </h1>
+                    <p class="unstoppable" id="red">
+                        Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не
+                        остановить!
+                    </p>
+                    <a href="#" class="btn" id="btn">Двигаться к мечте!</a>
+                </div>
+
+                <img src="./images/new.png" alt="" class="travel"> 
+                <!-- проблема в том, что картинка береться в форме квадрата, а не только нужный контент в форме круга -->
+            </div>
+        </div>
+    </header>
+
+    <section id="future" class="future">
+        <div class="container">
+            <h2 class="section-title">Что меня ждет впереди</h2>
+            <div class="wrapper-2">
+                <div class="wait-for-it">
+                    <h3 class="wait-title animate-animated animate__pulse">
+                        Свободное время
+                    </h3>
+                    <p class="wait-text">
+                        Мне нужно свободное время на семью и самое настоящее
+                    </p>
+                </div>
+                <div class="wait-for-it wait-for-it-palm">
+                    <h3 class="wait-title">
+                        Яркие путешествия
+                    </h3>
+                    <p class="wait-text">
+                        Работать откуда угодно - что может быть лучше?
+                    </p>
+                </div>
+                <div class="wait-for-it wait-for-it-launch">
+                    <h3 class="wait-title">
+                        Создание ценности
+                    </h3>
+                    <p class="wait-text">
+                        Нет ничего сильнее, чем жить не просто так, создавая ценность
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form" class="form">
+        <div class="container">
+            <h2 class="section-title section-title-form">Форма заказа билета в будущее</h2>
+            <form action="" class="forma">
+                <input type="text" name="name" placeholder="Имя" class="forms" required>
+                <input type="email" name="email" placeholder="E-mail" class="forms" required>
+                <input type="tel" name="tel" placeholder="Телефон" class="forms" required>
+                <input type="text" name="text" placeholder="Куда я полечу в ближайшее время?" class="forms" required>
+                <button type="submit" class="btn btn-form">Двигаться к мечте</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <p class="footer-text"> &copy Все мои мечты защищены моим трудолюбием</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+</body>
+</html>
